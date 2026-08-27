@@ -33,7 +33,7 @@ app.use("/api/flights", flightRoutes);
 
 // Test Routes
 app.get("/", (req, res) => {
-  res.send("✈️ SkyWings Backend Running");
+  res.send(" SkyWings Backend Running");
 });
 
 app.get("/test-server", (req, res) => {
@@ -44,5 +44,5 @@ app.get("/test-server", (req, res) => {
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server Running on Port ${PORT}`);
+  console.log(` Server Running on Port ${PORT}`);
 });
